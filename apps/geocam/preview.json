@@ -14,7 +14,7 @@
 
   "minBuild": {
     "enforced": true,
-    "minAllowedBuildNumber": 1,
+    "minAllowedBuildNumber": 10,
     "minAllowedVersion": "1.0.0",
     "message": "A newer build is required. Please install the latest release to continue testing."
   },
