@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/release-gate.schema.json",
+  "appId": "geocam",
+  "environment": "production",
+  "updatedAt": "2026-09-20T10:30:00Z",
+
+  "killSwitch": {
+    "enabled": false,
+    "badge": "SYS_NOTICE // SERVICE_UNAVAILABLE",
+    "title": "Service Temporarily Unavailable",
+    "message": "GeoCam is currently undergoing critical maintenance. Please try again shortly.",
+    "contactUrl": "https://geocam.app/support"
+  },
+
+  "minBuild": {
+    "enforced": false,
+    "minAllowedBuildNumber": 1,
+    "minAllowedVersion": "1.0.0",
+    "message": "A critical app update is required to continue using GeoCam."
+  },
+
+  "revokedBuilds": [],
+
+  "notice": {
+    "active": false,
+    "blocking": false,
+    "title": "Welcome",
+    "message": "Thank you for using GPS Camera."
+  }
+}
