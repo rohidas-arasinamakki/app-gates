@@ -23,7 +23,7 @@
 
   "notice": {
     "active": true,
-    "blocking": false,
+    "blocking": true,
     "title": "Beta Notice",
     "message": "GPS Camera Beta testing is active."
   }
