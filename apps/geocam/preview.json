@@ -19,7 +19,7 @@
     "message": "A newer build is required. Please install the latest release to continue testing."
   },
 
-  "revokedBuilds": ["1.0.0_b5"],
+  "revokedBuilds": [],
 
   "notice": {
     "active": false,
