@@ -6,7 +6,7 @@
 
   "killSwitch": {
     "enabled": false,
-    "badge": "SYS_LOCKOUT // REMOTELY_DECOMMISSIONED",
+    "badge": "SYS_LOCKOUT // REMOTELY_DECOMMISSIONED
     "title": "Build Decommissioned",
     "message": "This preview build of GeoCam has concluded its evaluation window. Please update to the latest release.",
     "contactUrl": "https://geocam.app/download"
