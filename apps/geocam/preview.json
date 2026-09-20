@@ -5,7 +5,7 @@
   "updatedAt": "2026-09-20T10:30:00Z",
 
   "killSwitch": {
-    "enabled": false,
+    "enabled": true,
     "badge": "SYS_LOCKOUT // REMOTELY_DECOMMISSIONED",
     "title": "Build Decommissioned",
     "message": "This preview build of GeoCam has concluded its evaluation window. Please update to the latest release.",
