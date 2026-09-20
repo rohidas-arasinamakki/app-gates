@@ -22,8 +22,8 @@
   "revokedBuilds": [],
 
   "notice": {
-    "active": true,
-    "blocking": true,
+    "active": false,
+    "blocking": false,
     "title": "Beta Notice",
     "message": "GPS Camera Beta testing is active."
   }
