@@ -15,8 +15,17 @@ jobs:
 
       - name: Validate All JSON Files
         run: |
+          HAS_ERROR=0
           for f in $(find apps -name "*.json"); do
-            echo "Validating $f..."
-            jq . "$f" > /dev/null || (echo "❌ Error parsing JSON in $f" && exit 1)
+            echo "🔍 Validating $f..."
+            if ! jq empty "$f"; then
+              echo "::error file=$f::Invalid JSON syntax detected in $f"
+              HAS_ERROR=1
+            fi
           done
+
+          if [ $HAS_ERROR -ne 0 ]; then
+            echo "❌ Validation failed for one or more JSON files."
+            exit 1
+          fi
           echo "✅ All app gate JSON files parsed successfully!"
